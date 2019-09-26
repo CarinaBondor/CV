@@ -1,0 +1,240 @@
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0.188em 0.188em 0.313em black;
+  -webkit-transition: color 0.3s, -webkit-text-decoration 1s;
+  transition: color 0.3s, -webkit-text-decoration 1s;
+  transition: text-decoration 1s, color 0.3s;
+  transition: text-decoration 1s, color 0.3s, -webkit-text-decoration 1s;
+  font-family: 'Playfair Display', serif;
+}
+
+a:hover {
+  color: #FF9900;
+  text-decoration: none;
+}
+
+ul {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.I {
+  border-color: #FF9900;
+  border-style: solid;
+  border-width: 2.500em 2.500em 2.500em 0px;
+  background-color: #3D3D3D;
+}
+
+.II {
+  padding: 2.500em;
+}
+
+.III {
+  border-radius: 25em 0px 0px 25em;
+  background-color: white;
+}
+
+.doi {
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+
+.trei {
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+
+img {
+  border-radius: 15.625em;
+  height: 15.625em;
+  width: 15.625em;
+  border: solid 0.938em #4B4B4B;
+  margin-bottom: 4.688em;
+}
+
+.about {
+  border: #FF9900 solid 10px;
+  border-radius: 3.125em 0px 3.125em 0px;
+  padding: 1.563em;
+  margin: auto;
+  margin-bottom: 5.625em;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact {
+  border: #FF9900 solid 10px;
+  border-radius: 0px 3.125em 0px 3.125em;
+  padding: 1.563em;
+  margin: auto;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.limba {
+  border: #FF9900 solid 10px;
+  border-radius: 0px 3.125em 0px 3.125em;
+  padding: 1.563em;
+  margin: auto;
+  margin-bottom: 5.625em;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.limba a {
+  color: black;
+}
+
+.accent {
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+  font-weight: bold 300;
+  font-size: 1.563em;
+  border-bottom: 0.125em solid #FF9900;
+  margin: auto;
+  padding-bottom: 0.625em;
+}
+
+.nume {
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+  font-weight: bold 300;
+  text-align: right;
+  padding: 75px 15px 45px 75px;
+  font-size: 4em;
+  font-family: 'Playfair Display', serif;
+  text-align: right;
+  margin: auto;
+}
+
+.butoane {
+  margin: 50px;
+}
+
+.projects {
+  height: auto;
+  width: auto;
+  background-color: #3D3D3D;
+  border-radius: 1.250em 0em 1.250em 0em;
+  border: #4B4B4B solid 0.313em;
+  font-family: 'Playfair Display', serif;
+  margin: auto;
+  font-size: 1.250em;
+}
+
+.projectsinv {
+  height: auto;
+  width: auto;
+  background-color: #3D3D3D;
+  border-radius: 0em 1.250em  0em 1.250em;
+  border: #4B4B4B solid 0.313em;
+  font-family: 'Playfair Display', serif;
+  margin: auto;
+  font-size: 1.250em;
+}
+
+.educatie {
+  text-align: left;
+  margin-bottom: 2.500em;
+  margin-left: 4.688em;
+  margin-right: 4.688em;
+}
+
+.educatie .ani {
+  font-weight: bold;
+  margin: -2.500em;
+}
+
+.educatie li {
+  padding-bottom: 2.188em;
+}
+
+.educatie li a {
+  text-shadow: 0.188em 30.188em 0.313em #FF9900;
+}
+
+.educatie li a:hover {
+  color: #FF9900;
+}
+
+.educatie a {
+  color: #FF9900;
+}
+
+.educatie a:hover {
+  text-shadow: 3px 3px 3px #FF9900;
+}
+
+.skills {
+  text-align: left;
+  margin-bottom: 2.500em;
+  margin-left: 4.688em;
+  margin-right: 4.688em;
+  padding-bottom: 30px;
+}
+
+.experience {
+  text-align: left;
+  margin-bottom: 2.500em;
+  margin-left: 4.688em;
+  margin-right: 4.688em;
+}
+
+.experience .ani {
+  font-weight: bold;
+  margin: -40px;
+}
+
+.experience li {
+  padding-bottom: 35px;
+}
+
+.volunteering {
+  text-align: left;
+  margin-bottom: 2.500em;
+  margin-left: 4.688em;
+  margin-right: 4.688em;
+  padding-bottom: 90px;
+}
+
+.volunteering .ani {
+  font-weight: bold;
+  margin: -40px;
+}
+
+.volunteering li {
+  padding-bottom: 35px;
+}
+
+select {
+  text-align: left;
+  color: white;
+  background-color: #3D3D3D;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  width: 95px;
+  -webkit-transition: color 0.3s, -webkit-text-decoration 1s;
+  transition: color 0.3s, -webkit-text-decoration 1s;
+  transition: text-decoration 1s, color 0.3s;
+  transition: text-decoration 1s, color 0.3s, -webkit-text-decoration 1s;
+  text-shadow: 3px 3px 4px black;
+}
+
+select:hover {
+  color: #FF9900;
+  text-decoration: none;
+}
+
+option {
+  width: 95px;
+  text-shadow: 3px 3px 4px black;
+}
+
+option:hover {
+  color: #FF9900;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=CV-nou.css.map */
